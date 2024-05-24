@@ -8,11 +8,19 @@
 
 html, body {
     height: 100%;
-    width: 100%;    
+    width: 100%; 
+    font-family: "Noto Sans Mono", monospace, sans-serif;   
+}
+
+#app-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
 }
 
 .app-name {
     color: #fafafa;
+    text-transform: uppercase;
 }
 
 footer a {
